@@ -1,0 +1,170 @@
+{
+  "accounts": [
+    {
+      "id": 1,
+      "name": "João Silva",
+      "balance": 300,
+      "transactions": [
+        {
+          "type": "transfer_out",
+          "amount": 1000,
+          "to": "Maria Souza",
+          "date": "2025-05-02T19:18:04.666Z"
+        },
+        {
+          "type": "deposit",
+          "amount": 100,
+          "date": "2025-05-02T19:19:23.618Z"
+        },
+        {
+          "type": "transfer_out",
+          "amount": 100,
+          "to": "Maria Souza",
+          "date": "2025-05-02T19:19:36.593Z"
+        },
+        {
+          "type": "transfer_in",
+          "amount": 100,
+          "from": "Maria Souza",
+          "date": "2025-05-02T19:19:45.634Z"
+        },
+        {
+          "type": "transfer_out",
+          "amount": 100,
+          "to": "José de Sá",
+          "date": "2025-05-02T19:20:26.353Z"
+        },
+        {
+          "type": "deposit",
+          "amount": 100,
+          "date": "2025-05-02T19:34:51.405Z"
+        },
+        {
+          "type": "transfer_out",
+          "amount": 100,
+          "to": "Maria Souza",
+          "date": "2025-05-02T19:35:04.891Z"
+        },
+        {
+          "type": "transfer_in",
+          "amount": 100,
+          "from": "Maria Souza",
+          "date": "2025-05-02T19:35:26.759Z"
+        },
+        {
+          "type": "deposit",
+          "amount": 100,
+          "date": "2025-05-02T19:35:53.073Z"
+        },
+        {
+          "type": "transfer_out",
+          "amount": 100,
+          "to": "Maria Souza",
+          "date": "2025-05-02T19:35:54.172Z"
+        },
+        {
+          "type": "transfer_in",
+          "amount": 100,
+          "from": "Maria Souza",
+          "date": "2025-05-02T19:35:56.268Z"
+        },
+        {
+          "type": "deposit",
+          "amount": 100,
+          "date": "2025-05-02T19:36:15.324Z"
+        },
+        {
+          "type": "transfer_out",
+          "amount": 100,
+          "to": "Maria Souza",
+          "date": "2025-05-02T19:36:16.417Z"
+        },
+        {
+          "type": "transfer_in",
+          "amount": 100,
+          "from": "Maria Souza",
+          "date": "2025-05-02T19:36:18.583Z"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Maria Souza",
+      "balance": 0,
+      "transactions": [
+        {
+          "type": "transfer_in",
+          "amount": 1000,
+          "from": "João Silva",
+          "date": "2025-05-02T19:18:04.666Z"
+        },
+        {
+          "type": "withdraw",
+          "amount": 6000,
+          "date": "2025-05-02T19:19:04.867Z"
+        },
+        {
+          "type": "transfer_in",
+          "amount": 100,
+          "from": "João Silva",
+          "date": "2025-05-02T19:19:36.593Z"
+        },
+        {
+          "type": "transfer_out",
+          "amount": 100,
+          "to": "João Silva",
+          "date": "2025-05-02T19:19:45.634Z"
+        },
+        {
+          "type": "transfer_in",
+          "amount": 100,
+          "from": "João Silva",
+          "date": "2025-05-02T19:35:04.891Z"
+        },
+        {
+          "type": "transfer_out",
+          "amount": 100,
+          "to": "João Silva",
+          "date": "2025-05-02T19:35:26.759Z"
+        },
+        {
+          "type": "transfer_in",
+          "amount": 100,
+          "from": "João Silva",
+          "date": "2025-05-02T19:35:54.172Z"
+        },
+        {
+          "type": "transfer_out",
+          "amount": 100,
+          "to": "João Silva",
+          "date": "2025-05-02T19:35:56.268Z"
+        },
+        {
+          "type": "transfer_in",
+          "amount": 100,
+          "from": "João Silva",
+          "date": "2025-05-02T19:36:16.417Z"
+        },
+        {
+          "type": "transfer_out",
+          "amount": 100,
+          "to": "João Silva",
+          "date": "2025-05-02T19:36:18.583Z"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "José de Sá",
+      "balance": 100,
+      "transactions": [
+        {
+          "type": "transfer_in",
+          "amount": 100,
+          "from": "João Silva",
+          "date": "2025-05-02T19:20:26.353Z"
+        }
+      ]
+    }
+  ]
+}

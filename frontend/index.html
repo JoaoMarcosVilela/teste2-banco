@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco Digital</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Banco Digital</h1>
+        </header>
+
+        <main>
+            <section id="accounts-section">
+                <h2>Contas Bancárias</h2>
+                <div class="actions">
+                    <button id="refresh-accounts">Atualizar</button>
+                    <button id="create-account">Nova Conta</button>
+                </div>
+                <div id="accounts-list"></div>
+            </section>
+
+            <section id="account-details" class="hidden">
+                <h2>Detalhes da Conta</h2>
+                <div id="account-info"></div>
+                <div class="account-actions">
+                    <div>
+                        <h3>Depósito</h3>
+                        <input type="number" id="deposit-amount" placeholder="Valor">
+                        <button id="deposit-btn">Depositar</button>
+                    </div>
+                    <div>
+                        <h3>Saque</h3>
+                        <input type="number" id="withdraw-amount" placeholder="Valor">
+                        <button id="withdraw-btn">Sacar</button>
+                    </div>
+                    <div>
+                        <h3>Transferência</h3>
+                        <input type="number" id="transfer-amount" placeholder="Valor">
+                        <input type="number" id="transfer-to" placeholder="ID da Conta Destino">
+                        <button id="transfer-btn">Transferir</button>
+                    </div>
+                </div>
+                <div id="transactions-list">
+                    <h3>Histórico de Transações</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Data</th>
+                                <th>Tipo</th>
+                                <th>Valor</th>
+                                <th>Detalhes</th>
+                            </tr>
+                        </thead>
+                        <tbody id="transactions-body"></tbody>
+                    </table>
+                </div>
+                <button id="back-to-accounts">Voltar</button>
+            </section>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
